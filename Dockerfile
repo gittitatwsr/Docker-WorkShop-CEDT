@@ -20,7 +20,7 @@ COPY app/ .
 # =============================================================================
 # Runtime stage — slim final image. Nothing from builder's caches leaks in.
 # =============================================================================
-
+#ts so buns
 # TODO(step-4d): set the runtime base image (same tag as step-4a for consistency).
 FROM node:20.11-slim
 
